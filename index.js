@@ -90,5 +90,5 @@ Shopify.get('/admin/orders.json', function(err, data, headers){
 */
 
 app.listen(PORT, () => {
-  console.log('Example app listening on port 3000!');
+  console.log('App listening on port: ' + PORT);
 });
